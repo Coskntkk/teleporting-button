@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+main {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    height: 40%;
+    width: 20%;
+}
+
+.mb-3 {
+    height: 6rem;
+}
+
+.button-div {
+    text-align: center;
+    display: flex;
+}
+
+#btn1,
+#btn2,
+#btn3 {
+    width: 33%;
+    height: 100%;
+}
+
+#emailHelp,
+#passwordHelp {
+    color: red;
+    display: none;
+}
