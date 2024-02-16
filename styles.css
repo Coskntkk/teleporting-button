@@ -43,3 +43,26 @@ form {
     color: red;
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    form {
+        height: 40%;
+        width: 80%;
+    }
+    
+    .mb-3 {
+        height: 6rem;
+    }
+    
+    .button-div {
+        text-align: center;
+        display: flex;
+    }
+}
